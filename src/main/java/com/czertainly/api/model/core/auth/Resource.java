@@ -50,6 +50,12 @@ public enum Resource implements IPlatformEnum {
     COMPLIANCE_PROFILE(Codes.COMPLIANCE_PROFILE, "Compliance Profile", true, true),
     DISCOVERY(Codes.DISCOVERY, "Discovery", false, true),
 
+    // SIGNING
+    SIGNATURE_PROFILE(Codes.SIGNATURE_PROFILE, "Signature Profile", true, true),
+
+    // TSA
+    TSA_PROFILE(Codes.TSA_PROFILE, "TSA Profile", true, true),
+
     // OID
     OID(Codes.OID, "OID", true, false),
 
@@ -214,8 +220,10 @@ public enum Resource implements IPlatformEnum {
         public static final String LOCATION = "locations";
         public static final String ROLE = "roles";
         public static final String SCEP_PROFILE = "scepProfiles";
+        public static final String SIGNATURE_PROFILE = "signatureProfiles";
         public static final String TOKEN = "tokens";
         public static final String TOKEN_PROFILE = "tokenProfiles";
+        public static final String TSA_PROFILE = "tsaProfiles";
         public static final String USER = "users";
         public static final String OID = "oids";
         public static final String ACME_ACCOUNT = "acmeAccounts";

@@ -35,7 +35,7 @@ public class EditRaProfileRequestDto {
         return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
                 .append("description", description)
                 .append("attributes", attributes)
-                .append("customAttributes", attributes)
+                .append("customAttributes", customAttributes)
                 .toString();
     }
 }
